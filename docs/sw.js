@@ -1,7 +1,7 @@
 self.addEventListener('install', (event) => {
     event.waitUntil(caches.open('fxcalc-v1')
         .then(cache => cache.addAll([
-            '/fx-calculator/',
+            '/mobile_fx_calculator/',
             'index.html',
             'style.css',
             'app.js',
