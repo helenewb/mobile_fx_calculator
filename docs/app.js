@@ -14,7 +14,7 @@ document.querySelectorAll('select').forEach(element => {
 document.querySelector('button').addEventListener('click', () => {
     const inputValue = document.querySelector('[name="input-value"]').value;
     const inputCurrency = document.querySelector('[name="input-currency"]').value;
-    const outputCurrency = document.querySelector('[name="input-output-currency"]').value;
+    const outputCurrency = document.querySelector('[name="output-currency"]').value;
 
     convert(inputValue, inputCurrency, outputCurrency)
         .then((outputValue) => {
