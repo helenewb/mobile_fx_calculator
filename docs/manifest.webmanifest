@@ -3,7 +3,7 @@
     "short_name": "Fx Calc",
     "display": "standalone",
     "start_url": ".",
-    "scope": "/mobile_fx_calculator/",
+    "scope": "/mobile_fx_calculator/", 
     "background_color": "#0dada5",
     "theme_color":"#0dada5",
     "description": "Simple FX Calculator based on fixer.io API - test for studies",
