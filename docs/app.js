@@ -28,7 +28,7 @@ function convert(inputValue, inputCurrency, outputCurrency) {
 
     fetch(fixerUri)
         .then(response => {
-            if(response.sataus == 200) {
+            if(response.status == 200) {
                 return response.json();
             } else {
                 return Promise.reject('failed to download rates');
