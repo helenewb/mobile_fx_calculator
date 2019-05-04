@@ -6,6 +6,6 @@
   "scripts": {
     "start": "browser-sync start bla bla"
   },
-  "author": "",
+  "author": "helenewb",
   "license": "ISC"
 }
